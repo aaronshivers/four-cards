@@ -1,0 +1,5 @@
+<div [ngClass]="['card', card.borderColor]">
+  <h3 class="card__title">{{ card.title }}</h3>
+  <p class="card__body">{{ card.body }}</p>
+  <img class="card__image" [src]="card.image" [alt]="card.title">
+</div>

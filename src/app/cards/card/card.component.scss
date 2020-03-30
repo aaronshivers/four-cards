@@ -1,0 +1,57 @@
+@import "src/assets/variables";
+
+.card {
+  color: $dark-blue;
+  border-top: 3px solid;
+  border-radius: 5px;
+  margin: 3rem 0;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 10px $gray-blue;
+}
+
+.card__body {
+  color: $gray-blue;
+  font-size: 1.3rem;
+  margin: 1rem 0;
+}
+
+.card__image {
+  width: 6rem;
+  margin-top: 2rem;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.border--cyan {
+  border-color: $cyan;
+}
+
+.border--red {
+  border-color: $red;
+}
+
+.border--orange {
+  border-color: $orange;
+}
+
+.border--blue {
+  border-color: $blue;
+}
+
+@media (min-width: 1440px) {
+  .card {
+    width: 300px;
+    margin: 2rem;
+
+  }
+
+  .card__title {
+    font-size: 2.25rem;
+  }
+
+  .card__body {
+    font-size: 1.5rem;
+  }
+}
